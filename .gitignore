@@ -12,3 +12,4 @@ venv/
 # Playwright
 playwright-report/
 test-results/
+db/*.sqlite
