@@ -1,10 +1,13 @@
 import pytest
 from playwright.sync_api import sync_playwright
 
-@pytest.fixture(scope="function")
-def page():
+browsers = ["chromium", "firefox", "webkit"]
+
+@pytest.fixture(params=browsers)
+def page(request):
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo=600)
+        browser_type = getattr(p, request.param)
+        browser = browser_type.launch(headless=True, slow_mo=300)
         page = browser.new_page()
         yield page
         browser.close()

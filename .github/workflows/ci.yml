@@ -32,10 +32,11 @@ jobs:
         run: |
           python -m playwright install --with-deps
 
-      # Run tests
-      - name: Run pytest
+      # Run tests in all browsers
+      - name: Run pytest (all browsers)
         run: |
           pytest -v --maxfail=1 --disable-warnings --html=report.html --self-contained-html
+
 
       # Upload test report as artifact
       - name: Upload report
