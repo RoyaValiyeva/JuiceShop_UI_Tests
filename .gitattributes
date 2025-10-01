@@ -1,0 +1,12 @@
+# Ignore auto-generated files from reports and test outputs
+reports/* linguist-generated
+*.html linguist-generated
+*.css linguist-generated
+*.js linguist-generated
+
+# Force Python files to be detected
+*.py linguist-detectable=true
+
+# Ignore cache/compiled stuff
+__pycache__/* linguist-generated
+*.pyc linguist-generated
