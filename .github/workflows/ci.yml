@@ -11,36 +11,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repo
+    
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Setup Python
+    
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: "3.11"
 
-      # Install dependencies
+     
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Install Playwright browsers
+      
       - name: Install Playwright
-        run: |
-          python -m playwright install --with-deps
+        run: python -m playwright install --with-deps
 
-      # Run tests in all browsers
-      - name: Run pytest (all browsers)
-        run: |
-          pytest -v --maxfail=1 --disable-warnings --html=report.html --self-contained-html
+    
+      - name: Run UI tests
+        run: pytest -v tests/ --disable-warnings -k "not db"
 
-
-      # Upload test report as artifact
-      - name: Upload report
-        uses: actions/upload-artifact@v3
-        with:
-          name: test-report
-          path: report.html

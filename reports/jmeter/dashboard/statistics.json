@@ -1,0 +1,50 @@
+{
+  "GET Search Apple" : {
+    "transaction" : "GET Search Apple",
+    "sampleCount" : 50,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 22.28,
+    "medianResTime" : 22.0,
+    "minResTime" : 11.0,
+    "maxResTime" : 50.0,
+    "pct1ResTime" : 30.9,
+    "pct2ResTime" : 39.14999999999997,
+    "pct3ResTime" : 50.0,
+    "throughput" : 5.590339892665474,
+    "receivedKBytesPerSec" : 5.552124678555455,
+    "sentKBytesPerSec" : 0.7643042822003577
+  },
+  "GET Home" : {
+    "transaction" : "GET Home",
+    "sampleCount" : 50,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 8.020000000000001,
+    "medianResTime" : 4.0,
+    "minResTime" : 3.0,
+    "maxResTime" : 63.0,
+    "pct1ResTime" : 18.599999999999994,
+    "pct2ResTime" : 33.049999999999876,
+    "pct3ResTime" : 63.0,
+    "throughput" : 5.56606924190137,
+    "receivedKBytesPerSec" : 410.2312614800178,
+    "sentKBytesPerSec" : 0.6087888233329622
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 15.149999999999995,
+    "medianResTime" : 13.5,
+    "minResTime" : 3.0,
+    "maxResTime" : 63.0,
+    "pct1ResTime" : 25.900000000000006,
+    "pct2ResTime" : 35.94999999999999,
+    "pct3ResTime" : 62.86999999999993,
+    "throughput" : 11.098779134295228,
+    "receivedKBytesPerSec" : 414.51338790233075,
+    "sentKBytesPerSec" : 1.365670088790233
+  }
+}

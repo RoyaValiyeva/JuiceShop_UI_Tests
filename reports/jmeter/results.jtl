@@ -1,0 +1,101 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1759341375857,63,GET Home,200,OK,JuicShop Smoke Load 1-1,text,true,,75471,112,1,1,http://localhost:3000/,55,0,34
+1759341375923,17,GET Search Apple,200,OK,JuicShop Smoke Load 1-1,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,17,0,0
+1759341375941,5,GET Home,200,OK,JuicShop Smoke Load 1-1,text,true,,75471,112,1,1,http://localhost:3000/,5,0,0
+1759341375947,24,GET Search Apple,200,OK,JuicShop Smoke Load 1-1,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,24,0,0
+1759341375972,4,GET Home,200,OK,JuicShop Smoke Load 1-1,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341375977,35,GET Search Apple,200,OK,JuicShop Smoke Load 1-1,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,35,0,0
+1759341376013,6,GET Home,200,OK,JuicShop Smoke Load 1-1,text,true,,75471,112,1,1,http://localhost:3000/,6,0,0
+1759341376020,31,GET Search Apple,200,OK,JuicShop Smoke Load 1-1,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,31,0,0
+1759341376052,4,GET Home,200,OK,JuicShop Smoke Load 1-1,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341376057,30,GET Search Apple,200,OK,JuicShop Smoke Load 1-1,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,30,0,0
+1759341376689,13,GET Home,200,OK,JuicShop Smoke Load 1-2,text,true,,75471,112,1,1,http://localhost:3000/,13,0,1
+1759341376703,12,GET Search Apple,200,OK,JuicShop Smoke Load 1-2,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,12,0,0
+1759341376715,5,GET Home,200,OK,JuicShop Smoke Load 1-2,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341376720,22,GET Search Apple,200,OK,JuicShop Smoke Load 1-2,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,22,0,0
+1759341376743,4,GET Home,200,OK,JuicShop Smoke Load 1-2,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341376747,25,GET Search Apple,200,OK,JuicShop Smoke Load 1-2,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,24,0,0
+1759341376772,4,GET Home,200,OK,JuicShop Smoke Load 1-2,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341376777,24,GET Search Apple,200,OK,JuicShop Smoke Load 1-2,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,24,0,0
+1759341376802,4,GET Home,200,OK,JuicShop Smoke Load 1-2,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341376807,23,GET Search Apple,200,OK,JuicShop Smoke Load 1-2,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,23,0,0
+1759341377685,5,GET Home,200,OK,JuicShop Smoke Load 1-3,text,true,,75471,112,1,1,http://localhost:3000/,5,0,1
+1759341377691,15,GET Search Apple,200,OK,JuicShop Smoke Load 1-3,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,15,0,0
+1759341377707,4,GET Home,200,OK,JuicShop Smoke Load 1-3,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341377712,22,GET Search Apple,200,OK,JuicShop Smoke Load 1-3,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,22,0,0
+1759341377735,4,GET Home,200,OK,JuicShop Smoke Load 1-3,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341377740,24,GET Search Apple,200,OK,JuicShop Smoke Load 1-3,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,24,0,0
+1759341377765,4,GET Home,200,OK,JuicShop Smoke Load 1-3,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341377770,23,GET Search Apple,200,OK,JuicShop Smoke Load 1-3,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,23,0,0
+1759341377794,4,GET Home,200,OK,JuicShop Smoke Load 1-3,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341377799,24,GET Search Apple,200,OK,JuicShop Smoke Load 1-3,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,24,0,0
+1759341378685,19,GET Home,200,OK,JuicShop Smoke Load 1-4,text,true,,75471,112,1,1,http://localhost:3000/,19,0,1
+1759341378704,12,GET Search Apple,200,OK,JuicShop Smoke Load 1-4,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,12,0,0
+1759341378717,4,GET Home,200,OK,JuicShop Smoke Load 1-4,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341378722,23,GET Search Apple,200,OK,JuicShop Smoke Load 1-4,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,23,0,0
+1759341378746,3,GET Home,200,OK,JuicShop Smoke Load 1-4,text,true,,75471,112,1,1,http://localhost:3000/,3,0,0
+1759341378750,19,GET Search Apple,200,OK,JuicShop Smoke Load 1-4,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,19,0,0
+1759341378770,4,GET Home,200,OK,JuicShop Smoke Load 1-4,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341378774,25,GET Search Apple,200,OK,JuicShop Smoke Load 1-4,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,25,0,0
+1759341378800,4,GET Home,200,OK,JuicShop Smoke Load 1-4,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341378804,22,GET Search Apple,200,OK,JuicShop Smoke Load 1-4,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,22,0,0
+1759341379688,20,GET Home,200,OK,JuicShop Smoke Load 1-5,text,true,,75471,112,1,1,http://localhost:3000/,20,0,2
+1759341379709,14,GET Search Apple,200,OK,JuicShop Smoke Load 1-5,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,14,0,0
+1759341379723,4,GET Home,200,OK,JuicShop Smoke Load 1-5,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341379728,20,GET Search Apple,200,OK,JuicShop Smoke Load 1-5,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,20,0,0
+1759341379748,4,GET Home,200,OK,JuicShop Smoke Load 1-5,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341379752,30,GET Search Apple,200,OK,JuicShop Smoke Load 1-5,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,30,0,0
+1759341379782,4,GET Home,200,OK,JuicShop Smoke Load 1-5,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341379787,23,GET Search Apple,200,OK,JuicShop Smoke Load 1-5,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,23,0,0
+1759341379811,4,GET Home,200,OK,JuicShop Smoke Load 1-5,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341379816,25,GET Search Apple,200,OK,JuicShop Smoke Load 1-5,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,25,0,0
+1759341380688,20,GET Home,200,OK,JuicShop Smoke Load 1-6,text,true,,75471,112,1,1,http://localhost:3000/,20,0,1
+1759341380709,13,GET Search Apple,200,OK,JuicShop Smoke Load 1-6,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,13,0,0
+1759341380722,4,GET Home,200,OK,JuicShop Smoke Load 1-6,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341380727,22,GET Search Apple,200,OK,JuicShop Smoke Load 1-6,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,22,0,0
+1759341380750,4,GET Home,200,OK,JuicShop Smoke Load 1-6,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341380755,36,GET Search Apple,200,OK,JuicShop Smoke Load 1-6,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,36,0,0
+1759341380792,11,GET Home,200,OK,JuicShop Smoke Load 1-6,text,true,,75471,112,1,1,http://localhost:3000/,11,0,0
+1759341380803,43,GET Search Apple,200,OK,JuicShop Smoke Load 1-6,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,42,0,0
+1759341380846,5,GET Home,200,OK,JuicShop Smoke Load 1-6,text,true,,75471,112,1,1,http://localhost:3000/,5,0,0
+1759341380851,50,GET Search Apple,200,OK,JuicShop Smoke Load 1-6,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,50,0,0
+1759341381682,13,GET Home,200,OK,JuicShop Smoke Load 1-7,text,true,,75471,112,1,1,http://localhost:3000/,13,0,1
+1759341381696,11,GET Search Apple,200,OK,JuicShop Smoke Load 1-7,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,11,0,0
+1759341381708,3,GET Home,200,OK,JuicShop Smoke Load 1-7,text,true,,75471,112,1,1,http://localhost:3000/,3,0,0
+1759341381711,20,GET Search Apple,200,OK,JuicShop Smoke Load 1-7,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,20,0,0
+1759341381731,4,GET Home,200,OK,JuicShop Smoke Load 1-7,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341381736,22,GET Search Apple,200,OK,JuicShop Smoke Load 1-7,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,22,0,0
+1759341381759,3,GET Home,200,OK,JuicShop Smoke Load 1-7,text,true,,75471,112,1,1,http://localhost:3000/,3,0,0
+1759341381763,24,GET Search Apple,200,OK,JuicShop Smoke Load 1-7,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,24,0,0
+1759341381788,4,GET Home,200,OK,JuicShop Smoke Load 1-7,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341381792,23,GET Search Apple,200,OK,JuicShop Smoke Load 1-7,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,23,0,0
+1759341382682,5,GET Home,200,OK,JuicShop Smoke Load 1-8,text,true,,75471,112,1,1,http://localhost:3000/,5,0,1
+1759341382688,11,GET Search Apple,200,OK,JuicShop Smoke Load 1-8,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,11,0,0
+1759341382700,3,GET Home,200,OK,JuicShop Smoke Load 1-8,text,true,,75471,112,1,1,http://localhost:3000/,3,0,0
+1759341382703,20,GET Search Apple,200,OK,JuicShop Smoke Load 1-8,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,20,0,0
+1759341382724,3,GET Home,200,OK,JuicShop Smoke Load 1-8,text,true,,75471,112,1,1,http://localhost:3000/,3,0,0
+1759341382728,25,GET Search Apple,200,OK,JuicShop Smoke Load 1-8,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,25,0,0
+1759341382754,4,GET Home,200,OK,JuicShop Smoke Load 1-8,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341382758,19,GET Search Apple,200,OK,JuicShop Smoke Load 1-8,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,19,0,0
+1759341382778,3,GET Home,200,OK,JuicShop Smoke Load 1-8,text,true,,75471,112,1,1,http://localhost:3000/,3,0,0
+1759341382781,19,GET Search Apple,200,OK,JuicShop Smoke Load 1-8,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,19,0,0
+1759341383686,13,GET Home,200,OK,JuicShop Smoke Load 1-9,text,true,,75471,112,1,1,http://localhost:3000/,13,0,2
+1759341383699,11,GET Search Apple,200,OK,JuicShop Smoke Load 1-9,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,11,0,0
+1759341383711,3,GET Home,200,OK,JuicShop Smoke Load 1-9,text,true,,75471,112,1,1,http://localhost:3000/,3,0,0
+1759341383715,22,GET Search Apple,200,OK,JuicShop Smoke Load 1-9,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,22,0,0
+1759341383738,3,GET Home,200,OK,JuicShop Smoke Load 1-9,text,true,,75471,112,1,1,http://localhost:3000/,3,0,0
+1759341383742,21,GET Search Apple,200,OK,JuicShop Smoke Load 1-9,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,21,0,0
+1759341383764,4,GET Home,200,OK,JuicShop Smoke Load 1-9,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341383769,22,GET Search Apple,200,OK,JuicShop Smoke Load 1-9,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,22,0,0
+1759341383791,4,GET Home,200,OK,JuicShop Smoke Load 1-9,text,true,,75471,112,1,1,http://localhost:3000/,4,0,0
+1759341383796,23,GET Search Apple,200,OK,JuicShop Smoke Load 1-9,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,23,0,0
+1759341384688,12,GET Home,200,OK,JuicShop Smoke Load 1-10,text,true,,75471,112,1,1,http://localhost:3000/,12,0,1
+1759341384701,14,GET Search Apple,200,OK,JuicShop Smoke Load 1-10,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,14,0,0
+1759341384715,49,GET Home,200,OK,JuicShop Smoke Load 1-10,text,true,,75471,112,1,1,http://localhost:3000/,48,0,0
+1759341384764,22,GET Search Apple,200,OK,JuicShop Smoke Load 1-10,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,22,0,0
+1759341384786,15,GET Home,200,OK,JuicShop Smoke Load 1-10,text,true,,75471,112,1,1,http://localhost:3000/,13,0,0
+1759341384801,15,GET Search Apple,200,OK,JuicShop Smoke Load 1-10,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,15,0,0
+1759341384817,3,GET Home,200,OK,JuicShop Smoke Load 1-10,text,true,,75471,112,1,1,http://localhost:3000/,3,0,0
+1759341384821,16,GET Search Apple,200,OK,JuicShop Smoke Load 1-10,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,15,0,0
+1759341384837,3,GET Home,200,OK,JuicShop Smoke Load 1-10,text,true,,75471,112,1,1,http://localhost:3000/,3,0,0
+1759341384841,26,GET Search Apple,200,OK,JuicShop Smoke Load 1-10,text,true,,1017,140,1,1,http://localhost:3000/rest/products/search?q=apple,26,0,0
