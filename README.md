@@ -65,7 +65,9 @@ zap-cli quick-scan http://localhost:3000
 ## Reports
 
 Playwright UI reports → report.html
+
 JMeter dashboard → reports/jmeter/dashboard/index.html
+
 ZAP security report → reports/zap/zap_report.html
 
 
