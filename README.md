@@ -1,87 +1,83 @@
-# 🛡️ Juice Shop QA Automation Project
+# JuiceShop UI & QA Automation Project
 
-This project is a **QA Automation Framework** for [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/), built to showcase **end-to-end testing skills** across API, UI, database, performance, and security.
+This project is a complete QA automation suite built around the **OWASP Juice Shop** demo application.  
+It demonstrates **mid-to-senior level QA Automation skills**, covering:
 
-It demonstrates practices expected from a **mid-to-senior QA engineer**:  
-- ✅ Page Object Model (POM) with Playwright (UI tests)  
-- ✅ Pytest with fixtures & structured test suites  
-- ✅ API testing (Postman + Python requests)  
-- ✅ Extendable for SQL validation, JMeter performance, ZAP security  
-- ✅ CI/CD-ready (GitHub Actions or Jenkins)
+- **UI Automation** with [Playwright](https://playwright.dev/) + Pytest  
+- **Cross-browser testing** (Chromium, Firefox, WebKit)  
+- **Database Validation** with SQLite (ensuring test results persist)  
+- **API / Security Testing** with OWASP ZAP (automated vulnerability scan)  
+- **Performance Testing** with Apache JMeter (load simulation & HTML reports)  
+- **CI/CD** with GitHub Actions (automated test pipeline on every push)
 
 ---
 
 ## Project Structure
-
 JuiceShop_UI_Tests/
-├── pages/                # Page Object Model classes
-│   ├── home_page.py
-│   ├── login_page.py
-│   └── basket_page.py
-├── tests/                # Test cases
-│   ├── test_homepage.py
-│   ├── test_login.py
-│   └── test_basket.py
-├── conftest.py           # Pytest fixture (browser setup/teardown)
-├── requirements.txt      # Project dependencies
-├── .gitignore            # Files ignored by Git
-└── README.md             # Project documentation
+│
+├── pages/ # Page Object Model (POM) classes
+│ ├── login_page.py
+│ ├── home_page.py
+│ └── basket_page.py
+│
+├── tests/ # Test cases
+│ ├── test_login.py
+│ ├── test_homepage.py
+│ ├── test_basket.py
+│ └── test_db_validation.py
+│
+├── db/ # SQLite database setup
+│ └── db.py
+│
+├── reports/ # Reports (excluded from git)
+│ ├── zap/ (OWASP ZAP results)
+│ └── jmeter/ (Performance results)
+│
+├── .github/workflows/ # GitHub Actions CI pipeline
+│ └── ci.yml
+│
+├── requirements.txt # Python dependencies
+├── README.md # Documentation
+└── .gitignore
 
 ---
 
-## Installation & Setup
+## 🚀 How to Run
 
-1. Clone the repository  
-git clone https://github.com/
-<your-username>/JuiceShop_UI_Tests.git
-cd JuiceShop_UI_Tests
-
-2. (Optional) Create & activate a virtual environment  
-python -m venv venv
-venv\Scripts\activate # Windows
-source venv/bin/activate # macOS/Linux
-
-3. Install dependencies  
+1. Install dependencies
 pip install -r requirements.txt
 
-4. Run OWASP Juice Shop locally (Docker required) 
-docker run --rm -p 3000:3000 bkimminich/juice-shop
-App will be available at [http://localhost:3000](http://localhost:3000).
+2. Install Playwright browsers
+python -m playwright install --with-deps
 
----
-
-## Running Tests
-
-Run all tests:  
-pytest -v
-Run a specific test:  
-pytest -v tests/test_login.py::test_login_success
-Run with debug output:  
+3. Run tests
 pytest -v -s
 
----
+4. Generate HTML report
+pytest -v --html=report.html --self-contained-html
 
-## Example Tests
+5. Run JMeter liad test
+jmeter -n -t reports/jmeter/juice_shop_load_test.jmx -l reports/jmeter/results.jtl -e -o reports/jmeter/dashboard
 
-### UI Tests (Playwright + POM)
-- Homepage: Verify site opens and title contains *OWASP Juice Shop*  
-- Login: Login with valid credentials and assert basket is visible  
-- Basket: Add product to basket and verify checkout available  
+6. Run OWASP ZAP scan
+zap-cli quick-scan http://localhost:3000
 
-### API Tests (Postman / Python requests)
-- Verify CRUD operations on `/api/Products`  
-- Validate login token response & error handling  
+## Reports
 
----
+Playwright UI reports → report.html
+JMeter dashboard → reports/jmeter/dashboard/index.html
+ZAP security report → reports/zap/zap_report.html
+
 
 ## Future Enhancements
-- Add SQL validation after UI/API actions  
-- Integrate JMeter performance tests (load test login & search)  
-- Run OWASP ZAP baseline scan and attach security report  
-- Add GitHub Actions for CI/CD (run tests on push/pull request)  
-- Export test results to TestRail/Zephyr (API integration)
 
----
+Integrate with TestRail for Test Case Management
+Add API tests with Postman collections
+Integrate with Docker for containerized test runs
+Expand JMeter scenarios for advanced performance metrics
+
 
 ## Author
-**Roya Valiyeva** – QA Automation Engineer, a portfolio of real-world test frameworks.
+
+Roya Valiyeva
+QA Automation Engineer
