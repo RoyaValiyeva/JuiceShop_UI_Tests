@@ -42,24 +42,24 @@ JuiceShop_UI_Tests/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-1. Install dependencies
+1. Install dependencies:
 pip install -r requirements.txt
 
-2. Install Playwright browsers
+2. Install Playwright browsers:
 python -m playwright install --with-deps
 
-3. Run tests
+3. Run tests:
 pytest -v -s
 
-4. Generate HTML report
+4. Generate HTML report:
 pytest -v --html=report.html --self-contained-html
 
-5. Run JMeter liad test
+5. Run JMeter liad test:
 jmeter -n -t reports/jmeter/juice_shop_load_test.jmx -l reports/jmeter/results.jtl -e -o reports/jmeter/dashboard
 
-6. Run OWASP ZAP scan
+6. Run OWASP ZAP scan:
 zap-cli quick-scan http://localhost:3000
 
 ## Reports
