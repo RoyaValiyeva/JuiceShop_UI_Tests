@@ -74,8 +74,11 @@ ZAP security report → reports/zap/zap_report.html
 ## Future Enhancements
 
 Integrate with TestRail for Test Case Management
+
 Add API tests with Postman collections
+
 Integrate with Docker for containerized test runs
+
 Expand JMeter scenarios for advanced performance metrics
 
 
