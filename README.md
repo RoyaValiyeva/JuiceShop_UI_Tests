@@ -94,6 +94,10 @@ Integrate with Docker for containerized test runs
 
 Expand JMeter scenarios for advanced performance metrics
 
+## Note
+
+Some GitHub Actions runs may show red due to limited container support for Playwright/ZAP/JMeter, but all tests run successfully locally with generated reports.
+
 
 ## Author
 
