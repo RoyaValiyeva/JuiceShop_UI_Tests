@@ -16,28 +16,41 @@ It demonstrates **mid-to-senior level QA Automation skills**, covering:
 JuiceShop_UI_Tests/
 │
 ├── pages/ # Page Object Model (POM) classes
+
 │ ├── login_page.py
+
 │ ├── home_page.py
+
 │ └── basket_page.py
 │
 ├── tests/ # Test cases
+
 │ ├── test_login.py
+
 │ ├── test_homepage.py
+
 │ ├── test_basket.py
+
 │ └── test_db_validation.py
 │
 ├── db/ # SQLite database setup
+
 │ └── db.py
 │
 ├── reports/ # Reports (excluded from git)
+
 │ ├── zap/ (OWASP ZAP results)
+
 │ └── jmeter/ (Performance results)
 │
 ├── .github/workflows/ # GitHub Actions CI pipeline
+
 │ └── ci.yml
 │
 ├── requirements.txt # Python dependencies
+
 ├── README.md # Documentation
+
 └── .gitignore
 
 ---
@@ -85,4 +98,5 @@ Expand JMeter scenarios for advanced performance metrics
 ## Author
 
 Roya Valiyeva
+
 QA Automation Engineer
